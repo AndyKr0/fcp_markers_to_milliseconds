@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+	<title>Convert to Milliseconds</title>
+	<link rel="stylesheet" type="text/css" href="web.css" />
+	<!-- By the way, this is a comment -->
+</head>
+
+<h1>FCP Marker List Text to Milliseconds</h1>
+
+<form action="parsetc.php" method="post" enctype="multipart/form-data">
+
+<p>Select Project Framerate:</p>
+<p><input type="radio" name="fps" value="23.976" /> 23.976 (23.98)</p>
+<p><input type="radio" name="fps" value="24" /> 24</p>
+<p><input type="radio" name="fps" value="25" /> 25 PAL</p>
+<p><input type="radio" name="fps" value="29.97" /> 29.97 NTSC Non-Drop Frame</p>
+<p><input type="radio" name="fps" value="29.97df" checked="checked" /> 29.97 NTSC Drop Frame</p>
+<br>
+<label for="file">Filename:</label>
+<p><input type="file" name="file" id="file"></p>
+<br>
+<br>
+<br>
+<input type="checkbox" name="offset_hour" value="offsetHourSelected">Start timecode at 00 hours? (Useful if sequence time defaults to 01 hour)<br>
+<input type="checkbox" name="advanced_mode" value="advancedModeSelected">Advanced mode?
+<br>
+<br>
+<br>
+
+
+<input type="submit" name="submit" value="Submit"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" />
+
+
+
+</form>
+
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+Name	Type	Marker Name	Comment	Start	Duration	Color
+Sequence 1	Sequence	Marker1		00:00:00:01	00:00:00;00	Red
+Sequence 1	Sequence	Marker2		00:00:00:09	00:00:00;00	Red
+Sequence 1	Sequence	Marker3		00:00:00:10	00:00:00;00	Red
+Sequence 1	Sequence	Marker4		00:00:00:24	00:00:00;00	Red
+Sequence 1	Sequence	Marker5		00:00:00:25	00:00:00;00	Red
+Sequence 1	Sequence	Marker6		00:00:59:29	00:00:00;00	Red
+Sequence 1	Sequence	Marker7		00:01:00:00	00:00:00;00	Red
+Sequence 1	Sequence	Marker8		00:01:10:10	00:00:00;00	Red
+Sequence 1	Sequence	Marker9		00:02:59:00	00:00:00;00	Red
