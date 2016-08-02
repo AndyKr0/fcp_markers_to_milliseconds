@@ -355,7 +355,8 @@ if ($radioPOST === '29.97df')
 
 
 $allowedExts = array("txt");
-$extension = end(explode(".", $_FILES["file"]["name"]));
+$extension_tmp = (explode(".", $_FILES["file"]["name"]));
+$extension = end($extension_tmp);
 if (($_FILES["file"]["type"] == "text/plain") 	&& ($_FILES["file"]["size"] < 20000) && in_array($extension, $allowedExts))
 {
   	if ($_FILES["file"]["error"] > 0)
